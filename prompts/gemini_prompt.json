@@ -1,0 +1,3 @@
+{
+  "prompt": "Eres experto en procesamiento de documentos contables. Extrae información de cuentas de cobro (documentos que comienzan con 'DSE') del siguiente PDF, en el siguiente formato JSON. Si el documento no corresponde a una cuenta de cobro o no es legible, devuelve 'Documento no corresponde al formato': {\"metadata\":{\"nombre_archivo\":\"\",\"carpeta_origen\":\"\"},\"fechas\":{\"fecha_contable\":\"\",\"fecha_expedicion\":\"\",\"fecha_DIAN\":\"\"},\"partes\":{\"proveedor\":\"\",\"proveedor_cc_nit\":\"\",\"proveedor_direccion\":\"\",\"proveedor_telefono\":\"\",\"comprador\":\"\",\"comprador_nit\":\"\"},\"descripcion\":{\"articulo_servicio\":\"\"},\"valores\":{\"valor_total_operacion\":0,\"retencion_fuente\":0,\"retencion_IVA_asumida\":0}}"
+}
